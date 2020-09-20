@@ -6,8 +6,8 @@ logo: /assets/images/LOGO_June-3D.png
 author: PELEIO, LLC
 description: We support your community install open-source solutions.
 email: hello@pele.io
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+telegram: https://t.me/PELEIO
+address: 30 N Gould St., Ste R <br>Sheridan, WY 82801
 copyright: Copyright &copy; 2020 PELEIO, LLC
 
 menu:
@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Open source solutions for strengthening your community.
+  hero-title: Open-source solutions for strengthening your community.
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -52,7 +52,7 @@ social:
 
 # About Section
 blurb:
-  Trying to strengthen your community as autonomously as possible? To connect your tribe affordably, with control of your data, and away from prying eyes? Look no further! We help you setup open source software that will enable your community to interact on its own terms.
+  Trying to develop your community? To connect your tribe affordably, with control of your data, while practicing autonomy? <i>PELEIO Strengthen</i> helps you setup open source software that will enable your community to interact on its own terms.
 
 blurb-btn-link: '/about'
 blurb-btn-name: learn more about us
@@ -62,22 +62,22 @@ blurb-btn-name: learn more about us
 
 # Work Process Section
 work-process:
-  - title : "Research and Plan"
+  - title : "Discuss & Explore"
     icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Start off with a call with us where you explain what you're working with, your vision, and what you may be looking for."
     
-  - title : "Design and Develop"
+  - title : "Develop & Maintain"
     icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "We'll start you with the available solutions that we think will be best. You pay first and last month's fees--for the majority of cases, we charge no set-up costs!"
     
-  - title : "Deliver"
+  - title : "Strengthen and Upgrade!"
     icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "As you strengthen your community, we'll be in consistent communication with you regarding maintenance, upgrades, or creative ways of expanding."
 
 
 # My Team Section
 team:
-  - title : "Jordan Urbanovich"
+  - title : "Jordan Urbs"
     image : "assets/images/team/jordan.jpg"
     designation : "Project Manager"
     
