@@ -63,6 +63,7 @@ h6, .h6{
   border: 0;
   position: relative;
   z-index: 1;
+  letter-spacing: 1px;
   transition: .2s ease; }
   .btn:focus {
     outline: 0;
@@ -80,9 +81,9 @@ h6, .h6{
   background: #907DBA;
   color: #ffffff; }
   .btn-primary:active {
-    background: #ac9ecc !important; }
+    background: #3F287F !important; }
   .btn-primary:hover {
-    background: #ac9ecc; }
+    background: #3F287F; }
   .btn-primary.focus, .btn-primary.active {
     background: #ac9ecc !important;
     box-shadow: none !important; }
