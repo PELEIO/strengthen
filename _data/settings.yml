@@ -64,15 +64,15 @@ blurb-btn-name: learn more about us
 work-process:
   - title : "Discuss & Explore"
     icon : "assets/images/icons/plan.png"
-    content : "Start off with a call with us where you explain what you're working with, your vision, and what you may be looking for."
+    content : "Let's start off with a calls where you explain what you're working with, your vision, and what you may be looking for."
     
   - title : "Develop & Maintain"
     icon : "assets/images/icons/design.png"
-    content : "We'll start you with the available solutions that we think will be best. You pay first and last month's fees--for the majority of cases, we charge no set-up costs!"
+    content : "We'll set you up with the solution(s) that we think will be best. You pay first and last month's fees, and we'll be available at all times for any issues you may encounter. For a large majority of cases, we charge no set-up costs!"
     
   - title : "Strengthen and Upgrade!"
     icon : "assets/images/icons/print.png"
-    content : "As you strengthen your community, we'll be in consistent communication with you regarding maintenance, upgrades, or creative ways of expanding."
+    content : "As you strengthen your community, we'll be in consistent communication with you regarding maintenance, software upgrades, or creative ways of expanding."
 
 
 # My Team Section
