@@ -28,11 +28,27 @@ $("#PELEIOStrengthen").submit(function(e) {
             <div class="col-md-6">
               <input type="email" id="email" name="_replyto" placeholder="Email Address" class="form-control px-0 mb-4">
             </div>
+         <div class="col-12">
+             <p><label>I Am Interested In:<br><em>(Hold down shift to select more than one)</em></label></p>
+             <select border=0 name="software[]" multiple>
+      <option value="videochat">Video Chat</option>
+      <option value="socialnetworking">Social Networking</option>
+    <option value="discussions">Community Discussion</option>
+      <option value="maps">Maps</option>
+        <option value="courses">Online Courses</option>
+      <option value="events">Events</option>
+      <option value="websites">Websites</option>
+      <option value="transactions">Transactions</option>
+      <option value="ideas">Other (Ideas!)</option>
+                      </select>
+              </div>
             <div class="col-12">
               <textarea name="message" id="message" class="form-control px-0 mb-4"
                 placeholder="Please briefly introduce your community's goals and what you would like to create."></textarea>
+              </div>
+
               <div class="h-captcha" data-sitekey="b214e111-5255-4e24-bc1c-e896b09d05ec"></div>
-			  </div>
+			  
             <div class="col-lg-6 col-10 mx-auto">
               <button type="submit" class="btn btn-primary w-100" onclick="submitnetajax()">send</button>
             </div>

@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 
-title: PELEIO Strengthen: Community Building Hosting and Consultancy
+title: PELEIO Strengthen | Community Building Hosting and Consultancy
 logo: /assets/images/LOGO_June-3D.png
 author: PELEIO, LLC
 description: We support strengthening your community with open-source solutions.
@@ -45,7 +45,7 @@ hero:
 
 # About Section
 blurb:
-  Trying to develop your community? To connect your tribe affordably, with control of your data, while practicing autonomy? <i>PELEIO Strengthen</i> helps you setup open source software that will enable your community to interact on its own terms.
+  Developing your local community? Trying to connect your tribe affordably, with control of your data, while practicing principles of autonomy? <i>PELEIO Strengthen</i> helps you setup open source software that will enable your community to interact on its own terms.
 
 # blurb-btn-link: '/about'
 # blurb-btn-name: know more
