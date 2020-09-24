@@ -1,14 +1,14 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
-logo: 
-author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+title: PELEIO Community Builder
+logo: /assets/images/LOGO_June-3D.png
+author: PELEIO, LLC
+description: We support strengthening your community with open-source solutions.
+email: hello@pele.io
+telegram: https://t.me/PELEIO
+address: 30 N Gould St., Ste R <br>Sheridan, WY 82801
+copyright: Copyright &copy; 2020 PELEIO, LLC | Site designed by [Themefisher](https://themefisher.com)
 
 menu:
 - {name: About, link: '/about/'}
@@ -38,14 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
-
-social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
-
+  hero-title: Strengthen your community with open-source software solutions.
 
 #-------------------------------
 # About (Section and Page)
