@@ -1,4 +1,16 @@
 <!-- contact -->
+<script type="text/javascript">
+function submitnetajax() {
+$("#PELEIOStrengthen").submit(function(e) {
+  e.preventDefault();
+
+  var $form = $(this);
+  $.post($form.attr("action"), $form.serialize()).then(function() {
+    alert("Thank you! We will be in touch.");
+  });
+});
+}
+</script>
 <section class="section section-on-footer" data-background="{{site.baseurl}}/assets/images/backgrounds/bg-dots.png">
   <div class="container">
     <div class="row">
@@ -8,7 +20,7 @@
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
           <h4>Contact Us</h4>
-          <form data-netlify="true" method="POST" class="row" name="PELEIO Strengthen">
+          <form data-netlify="true" method="POST" class="row" name="PELEIOStrengthen">
                <input type="hidden" id="subject" name="subject" value="PELEIO Strengthen">
             <div class="col-md-6">
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
@@ -22,7 +34,7 @@
               <div class="h-captcha" data-sitekey="b214e111-5255-4e24-bc1c-e896b09d05ec"></div>
 			  </div>
             <div class="col-lg-6 col-10 mx-auto">
-              <button type="submit" class="btn btn-primary w-100">send</button>
+              <button type="submit" class="btn btn-primary w-100" onclick="submitnetajax()">send</button>
             </div>
           </form>
         </div>
