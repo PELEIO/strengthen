@@ -1,12 +1,12 @@
 <!-- contact -->
-<script type="text/javascript">
+<script>
 function submitnetajax() {
-$("#PELEIOStrengthen").submit(function(e) {
+$("#strengthen").submit(function(e) {
   e.preventDefault();
 
   var $form = $(this);
   $.post($form.attr("action"), $form.serialize()).then(function() {
-    alert("Thank you! We will be in touch.");
+    alert("Thank you!");
   });
 });
 }
@@ -20,7 +20,7 @@ $("#PELEIOStrengthen").submit(function(e) {
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
           <h4>Contact Us</h4>
-          <form data-netlify="true" method="POST" class="row" id="PELEIOStrengthen" name="PELEIOStrengthen">
+<form data-netlify="true" class="row" id="strengthen" name="PELEIO Strengthen">
                <input type="hidden" id="subject" name="subject" value="PELEIO Strengthen">
             <div class="col-md-6">
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
