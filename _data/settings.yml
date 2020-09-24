@@ -120,6 +120,24 @@ services:
     description: 'Event invitations that are only visible to those who you want to see them.',
     active: # Add true to select section
   }
+- {
+    name: Maps,
+    icon: ti-map,
+    description: 'Maps that display where people, resources, or activities are located.',
+    active: # Add true to select section
+  }
+- {
+    name: Online Courses,
+    icon: ti-blackboard,
+    description: 'Host and sell classes to share your knowledge with inspired students.',
+    active: # Add true to select section
+  }
+- {
+    name: Events,
+    icon: ti-direction,
+    description: 'Event invitations that are only visible to those who you want to see them.',
+    active: # Add true to select section
+  }
 
 #-------------------------------
 # Contact Section
