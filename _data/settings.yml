@@ -133,7 +133,7 @@ services:
     active: # Add true to select section
   }
 - {
-    name: Ideas,
+    name: Other Ideas,
     icon: ti-light-bulb,
     description: 'Nothing is impossible! We will figure it out with you.',
     active: # Add true to select section
