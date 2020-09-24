@@ -10,11 +10,11 @@ telegram: https://t.me/PELEIO
 address: 30 N Gould St., Ste R <br>Sheridan, WY 82801
 copyright: Copyright &copy; 2020 PELEIO, LLC | Site designed by [Themefisher](https://themefisher.com)
 
-menu:
-- {name: About, link: '/about/'}
-- {name: Blog, link: '/blog/'}
-- {name: Portfolio, link: '/portfolio/'}
-- {name: Contact, link: '/contact/'}
+# menu:
+# - {name: About, link: '/about/'}
+# - {name: Blog, link: '/blog/'}
+# - {name: Portfolio, link: '/portfolio/'}
+# - {name: Contact, link: '/contact/'}
 
 
 #-------------------------------
@@ -82,26 +82,63 @@ team:
 #-------------------------------
 # Services Section
 
-services-title: Services
+services-title: Hosting Services
 services:
 - {
-    name: UI Design,
-    icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: Video Chat,
+    icon: ti-video-camera,
+    description: 'Host your own local, private, and secure video chats.',
     active: # Add true to select section
   }
 - {
-    name: UX Design,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: true # Add true to select section
-  }
-- {
-    name: Interaction Design,
-    icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: Social Networking,
+    icon: ti-instagram,
+    description: 'Connect your community with interfaces just like Twitter, Instagram, or YouTube.',
     active: # Add true to select section
   }
+- {
+    name: Community Discussion,
+    icon: ti-comments,
+    description: 'Share ideas and discourse with bulletin boards, forums, blogs and comments.',
+    active: # Add true to select section
+  }
+- {
+    name: Maps,
+    icon: ti-map,
+    description: 'Maps that display where people, resources, or activities are located.',
+    active: # Add true to select section
+  }
+- {
+    name: Online Courses,
+    icon: ti-blackboard,
+    description: 'Host and sell classes to share your knowledge with inspired students.',
+    active: # Add true to select section
+  }
+- {
+    name: Events,
+    icon: ti-direction,
+    description: 'Event invitations that are only visible to those who you want to see them.',
+    active: # Add true to select section
+  }
+- {
+    name: Websites,
+    icon: ti-world,
+    description: 'Communicate the objectives of your mission.',
+    active: # Add true to select section
+  }
+- {
+    name: Transactions (Coming Soon!),
+    icon: ti-money,
+    description: 'Humanize your community transactions with an agreed-upon local unit of energy.',
+    active: # Add true to select section
+  }
+- {
+    name: Got an Idea?,
+    icon: ti-light-bulb,
+    description: 'We can probably figure it out with you. Lets talk!',
+    active: # Add true to select section
+  }
+
 
 #-------------------------------
 # Contact Section
