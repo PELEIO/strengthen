@@ -121,21 +121,21 @@ services:
     active: # Add true to select section
   }
 - {
-    name: Maps,
-    icon: ti-map,
-    description: 'Maps that display where people, resources, or activities are located.',
+    name: Websites,
+    icon: ti-world,
+    description: 'Communicate the objectives of your mission.',
     active: # Add true to select section
   }
 - {
-    name: Online Courses,
-    icon: ti-blackboard,
-    description: 'Host and sell classes to share your knowledge with inspired students.',
+    name: Transactions,
+    icon: ti-money,
+    description: 'Coming Soon! Humanize your local commerce with an agreed-upon local unit of energy.',
     active: # Add true to select section
   }
 - {
-    name: Events,
-    icon: ti-direction,
-    description: 'Event invitations that are only visible to those who you want to see them.',
+    name: Got an Idea?,
+    icon: ti-light-bulb,
+    description: 'Nothing is impossible! We will figure it out with you.',
     active: # Add true to select section
   }
 

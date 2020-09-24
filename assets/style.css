@@ -621,7 +621,8 @@ blockquote > p {
   padding: 20px 30px;
   transition: .3s ease; }
   .navigation.nav-bg {
-    background-color: #907DBA;
+        text-align: center;
+    background-color: #FFFFFF;
     padding: 5px 40px; }
     @media (max-width: 991px) {
       .navigation.nav-bg {
