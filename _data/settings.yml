@@ -135,7 +135,7 @@ services:
     description: 'Connect your community with interfaces just like Twitter, Instagram, or YouTube.',
     active: # Add true to select section
   }
-  - {
+- {
     name: Community Discussion,
     icon: ti-comments,
     description: 'Share ideas and discourse with bulletin boards, forums, blogs and comments.',
