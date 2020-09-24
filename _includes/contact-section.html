@@ -1,16 +1,4 @@
 <!-- contact -->
-<script>
-function submitnetajax() {
-$("#strengthen").submit(function(e) {
-  e.preventDefault();
-
-  var $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    alert("Thank you!");
-  });
-});
-}
-</script>
 <section class="section section-on-footer" data-background="{{site.baseurl}}/assets/images/backgrounds/bg-dots.png">
   <div class="container">
     <div class="row">
@@ -20,10 +8,10 @@ $("#strengthen").submit(function(e) {
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
           <h4>Contact Us</h4>
-<form data-netlify="true" class="row" id="strengthen" name="PELEIO Strengthen">
-               <input type="hidden" id="subject" name="subject" value="PELEIO Strengthen">
+<form id="strengthen" class="row" method="post" action="https://formspree.io/mleoegwa">
+               <input type="hidden" name="form-name" value="PELEIO Strengthen">
             <div class="col-md-6">
-              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+              <input type="text" id="name" name="name" placeholder="Your Name" class="form-control px-0 mb-4">
             </div>
             <div class="col-md-6">
               <input type="email" id="email" name="_replyto" placeholder="Email Address" class="form-control px-0 mb-4">
@@ -42,7 +30,7 @@ $("#strengthen").submit(function(e) {
       <option value="ideas">Other (Ideas!)</option>
                       </select>
               </div>
-            <div class="col-12">
+            <div class="col-12" style="margin-top:15px;">
               <textarea name="message" id="message" class="form-control px-0 mb-4"
                 placeholder="Please briefly introduce your community's goals and what you would like to create."></textarea>
               </div>
@@ -50,7 +38,8 @@ $("#strengthen").submit(function(e) {
               <div class="h-captcha" data-sitekey="b214e111-5255-4e24-bc1c-e896b09d05ec"></div>
 			  
             <div class="col-lg-6 col-10 mx-auto">
-              <button type="submit" class="btn btn-primary w-100" onclick="submitnetajax()">send</button>
+              <button type="submit" class="btn btn-primary w-100" id="my-form-button">send!</button>
+                <p id="my-form-status"></p>
             </div>
           </form>
         </div>
