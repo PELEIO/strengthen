@@ -150,7 +150,7 @@ a:hover {
   font-family: 'Racing Sans One', cursive !important; }
 
 .shadow {
-  box-shadow: 0px 18px 39.1px 6.9px rgba(224, 241, 255, 0.34) !important; }
+  box-shadow: 0px 18px 39.1px 6.9px rgba(63, 40, 127, .1) !important; }
 
 .bg-dark {
   background-color: #3F287F !important; }
@@ -517,7 +517,7 @@ blockquote > p {
 .hover-shadow {
   transition: .2s ease; }
   .hover-shadow:hover {
-    box-shadow: 0px 18px 40px 8px rgba(224, 241, 255, 0.54) !important; }
+    box-shadow: 0px 18px 40px 8px rgba(63, 40, 127, .2) !important; }
 
 
 /* portfolio */
@@ -608,7 +608,7 @@ blockquote > p {
   .shadow-down::before {
     position: absolute;
     content: "";
-    box-shadow: 0px 0px 80.75px 14.25px rgba(63, 40, 127, .34);;
+    box-shadow: 0px 0px 80.75px 14.25px rgba(63, 40, 127, .1);;
     height: 100%;
     width: 100%;
     left: 0;
@@ -619,7 +619,7 @@ blockquote > p {
 /* /footer */
 .navigation {
   padding: 20px 30px;
-            text-align: center;
+text-align: center;
   transition: .3s ease; }
   .navigation.nav-bg {
         text-align: center;
