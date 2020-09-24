@@ -4,17 +4,17 @@
 title: PELEIO Community Builder
 logo: /assets/images/LOGO_June-3D.png
 author: PELEIO, LLC
-description: We support your community install open-source solutions.
+description: We support strengthening your community with open-source solutions.
 email: hello@pele.io
 telegram: https://t.me/PELEIO
 address: 30 N Gould St., Ste R <br>Sheridan, WY 82801
-copyright: Copyright &copy; 2020 PELEIO, LLC
+copyright: Copyright &copy; 2020 PELEIO, LLC | Site designed by [Themefisher](https://themefisher.com)
 
-menu:
-- {name: About PELEIO, link: '/about/'}
-- {name: Media Services, link: '/blog/'}
-- {name: Video Storytelling, link: '/portfolio/'}
-- {name: Contact, link: '/contact/'}
+#menu:
+#- {name: About PELEIO, link: '/about/'}
+#- {name: Media Services, link: '/blog/'}
+#- {name: Video Storytelling, link: '/portfolio/'}
+#- {name: Contact, link: '/contact/'}
 
 
 #-------------------------------
@@ -38,13 +38,13 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Open-source solutions for strengthening your community.
+  hero-title: Open-source software solutions for strengthening your community.
 
-social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+#social:
+#- {icon: "ti-facebook", link: "#"}
+#- {icon: "ti-instagram", link: "#"}
+#- {icon: "ti-dribbble", link: "#"}
+#- {icon: "ti-twitter", link: "#"}
 
 
 #-------------------------------
@@ -79,16 +79,11 @@ work-process:
 team:
   - title : "Jordan Urbs"
     image : "assets/images/team/jordan.jpg"
-    designation : "Project Manager"
+    designation : "Systems Administrator"
     
   - title : "Daniel Levy"
     image : "assets/images/team/daniel.jpg"
-    designation : "Web Developer"
-    
-  - title : "John Doe"
-    image : "assets/images/team/member-3.png"
-    designation : "Designer"
-
+    designation : "Community Outreach"
 
 #-------------------------------
 # Skills Section
@@ -131,37 +126,49 @@ services:
 - {
     name: Video Chat & Livestreams,
     icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Host your own local, private, and secure video chats.',
     active: # Add true to select section
   }
 - {
-    name: Social Networking,
+    name: Social Media Networking,
     icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: true # Add true to select section
+    description: 'Connect your community with a Twitter-like interface, share videos like YouTube, or record stories like Instagram.',
+    active: # Add true to select section
   }
 - {
     name: Community Discussion,
     icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Bulletin boards, forums, blogs and comment portals to share ideas, knowledge, and wisdom.',
     active: # Add true to select section
   }
 - {
-    name: Decision Making,
+    name: Community Currencies (Coming Soon!),
     icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Humanize your community transactions with an agreed-upon local unit of energy.',
     active: # Add true to select section
   }
 - {
-    name: Maps & Visualization,
+    name: Maps & Visualization (Coming Soon!),
     icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Embed a map on your website that displays where your community members, resources, or activities are located.',
     active: # Add true to select section
   }
 - {
     name: Online Courses,
     icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Host classes to share your knowledge with inspired students.',
+    active: # Add true to select section
+  }
+- {
+    name: Events,
+    icon: ti-panel,
+    description: 'Event invitations that are only visible to those who you want to see them.',
+    active: # Add true to select section
+  }
+- {
+    name: Websites,
+    icon: ti-panel,
+    description: 'Every mission needs a landing page to communicate its objectives in order to bring in more people.',
     active: # Add true to select section
   }
 
@@ -190,15 +197,15 @@ portfolio-home-items:
 
 # Portfolio Page
 portfolio-label:
-- {
+  - {
     title : "UI/UX Design",
     type : "design"
   }
-- {
+  - {
     title : "BRANDING",
     type : "branding"
   }
-- {
+  - {
     title : "ILLUSTRATION",
     type : "illustration"
   }
