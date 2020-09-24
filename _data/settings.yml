@@ -141,7 +141,6 @@ services:
     description: 'Share ideas and discourse with bulletin boards, forums, blogs and comments.',
     active: # Add true to select section
   }
-
 - {
     name: Maps,
     icon: ti-map,
