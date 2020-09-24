@@ -54,8 +54,8 @@ hero:
 blurb:
   Trying to develop your community? To connect your tribe affordably, with control of your data, while practicing autonomy? <i>PELEIO Strengthen</i> helps you setup open source software that will enable your community to interact on its own terms.
 
-blurb-btn-link: '/about'
-blurb-btn-name: learn more about us
+#blurb-btn-link: '/about'
+#blurb-btn-name: learn more about us
 
 
 # About Page
@@ -124,56 +124,57 @@ education:
 services-title: Services
 services:
 - {
-    name: Video Chat & Livestreams,
-    icon: ti-palette,
+    name: Video Chat,
+    icon: ti-video-camera,
     description: 'Host your own local, private, and secure video chats.',
     active: # Add true to select section
   }
 - {
-    name: Social Media Networking,
-    icon: ti-vector,
+    name: Social Networking,
+    icon: ti-instagram,
     description: 'Connect your community with interfaces just like Twitter, Instagram, or YouTube.',
     active: # Add true to select section
   }
 - {
     name: Community Discussion,
-    icon: ti-panel,
+    icon: ti-comments,
     description: 'Share ideas and discourse with bulletin boards, forums, blogs and comments.',
     active: # Add true to select section
   }
+
 - {
-    name: Community Currencies (Coming Soon!),
-    icon: ti-panel,
-    description: 'Humanize your community transactions with an agreed-upon local unit of energy.',
-    active: # Add true to select section
-  }
-- {
-    name: Maps & Visualization (Coming Soon!),
-    icon: ti-panel,
+    name: Maps,
+    icon: ti-map,
     description: 'Maps that display where people, resources, or activities are located.',
     active: # Add true to select section
   }
 - {
     name: Online Courses,
-    icon: ti-panel,
+    icon: ti-blackboard,
     description: 'Host/sell classes to share your knowledge with inspired students.',
     active: # Add true to select section
   }
 - {
     name: Events,
-    icon: ti-panel,
+    icon: ti-direction,
     description: 'Event invitations that are only visible to those who you want to see them.',
     active: # Add true to select section
   }
 - {
     name: Websites,
-    icon: ti-panel,
+    icon: ti-world,
     description: 'Communicate the objectives of your mission.',
     active: # Add true to select section
   }
 - {
-    name: Got an idea?,
-    icon: ti-panel,
+    name: Transactions (Coming Soon!),
+    icon: ti-money,
+    description: 'Humanize your community transactions with an agreed-upon local unit of energy.',
+    active: # Add true to select section
+  }
+- {
+    name: Got an Idea?,
+    icon: ti-light-bulb,
     description: 'We can probably figure it out with you. Lets talk!',
     active: # Add true to select section
   }
@@ -324,5 +325,5 @@ client-slider-items:
 #-------------------------------
 # Contact Section
 
-contact-title: Contact Info
+contact-title: Get in Touch
 contact-email: hello@pele.io

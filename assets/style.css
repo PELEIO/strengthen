@@ -2,6 +2,221 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Racing+Sans+One&display=swap');
 
 body {
+  background-color: #fff;
+  overflow-x: hidden; }
+
+::selection {
+  background: #ac9ecc;
+  color: #fff; }
+
+/* preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+ol,
+ul {
+  list-style-type: none;
+  margin: 0px; }
+
+img {
+  vertical-align: middle;
+  border: 0; }
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none; }
+
+a,
+button,
+select {
+  cursor: pointer;
+  transition: .2s ease; }
+  a:focus,
+  button:focus,
+  select:focus {
+    outline: 0; }
+
+a.text-dark:hover {
+  color: #907DBA !important; }
+
+a:hover {
+  color: #907DBA; }
+
+.slick-slide {
+  outline: 0; }
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .section-title {
+    margin-bottom: 80px;
+    font-family: 'Racing Sans One', cursive; }
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+/* overlay */
+.overlay {
+  position: relative; }
+  .overlay::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: .5; }
+
+.outline-0 {
+  outline: 0 !important; }
+
+.d-unset {
+  display: unset !important; }
+
+.bg-primary {
+  background: #907DBA !important; }
+
+.bg-gray {
+  background: #eaeaea !important; }
+
+.text-primary {
+  color: #907DBA !important; }
+
+.text-color {
+  color: #4c4c4c; }
+
+.text-dark {
+  color: #3F287F !important; }
+
+.text-light {
+  color: #4c4c4c-light !important; }
+
+.mb-10 {
+  margin-bottom: 10px !important; }
+
+.mb-20 {
+  margin-bottom: 20px !important; }
+
+.mb-30 {
+  margin-bottom: 30px !important; }
+
+.mb-40 {
+  margin-bottom: 40px !important; }
+
+.mb-50 {
+  margin-bottom: 50px !important; }
+
+.mb-60 {
+  margin-bottom: 60px !important; }
+
+.mb-70 {
+  margin-bottom: 70px !important; }
+
+.mb-80 {
+  margin-bottom: 80px !important; }
+
+.mb-90 {
+  margin-bottom: 90px !important; }
+
+.mb-100 {
+  margin-bottom: 100px !important; }
+
+.zindex-1 {
+  z-index: 1; }
+
+.rounded-lg {
+  border-radius: 15px; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+.font-secondary {
+  font-family: 'Racing Sans One', cursive !important; }
+
+.font-tertiary {
+  font-family: 'Racing Sans One', cursive !important; }
+
+.shadow {
+  box-shadow: 0px 18px 39.1px 6.9px rgba(224, 241, 255, 0.34) !important; }
+
+.bg-dark {
+  background-color: #222222 !important; }
+
+/* icon */
+.icon {
+  font-size: 45px; }
+
+.icon-bg {
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center; }
+
+.icon-light {
+  color: #c8d5ef; }
+
+/* /icon */
+/* slick slider */
+.slick-dots {
+  text-align: center;
+  padding-left: 0; }
+  .slick-dots li {
+    display: inline-block;
+    margin: 2px; }
+    .slick-dots li.slick-active button {
+      background: #fff;
+      width: 25px; }
+    .slick-dots li button {
+      height: 6px;
+      width: 12px;
+      background: rgba(255, 255, 255, 0.5);
+      color: transparent;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: .2s ease;
+      border: 0; }
+
+/* /slick slider */
+/* form */
+.form-control {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #c7c7c7;
+  height: 60px; }
+  .form-control:focus {
+    border-color: #907DBA;
+    outline: 0;
+    box-shadow: none !important; }
+
+textarea.form-control {
+  height: 120px; }
+
+/* /form */
+/* card */
+.card {
+  border: 0; }
+  .card-header {
+    border: 0; }
+  .card-footer {
+    border: 0; }
+
+/* /card */
+
+
+body {
   line-height: 1.2;
   font-family: 'Noto Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -51,6 +266,8 @@ h5, .h5{
 h6, .h6{
   font-size: 14px;
 }
+
+.card { margin-top: 20px; }
 
 /* Button style */
 .btn {
@@ -375,6 +592,8 @@ blockquote > p {
   right: 200px;
   bottom: -50px; }
 
+.section-title { margin-bottom: 2rem; }
+
 /* footer */
 .footer-section {
   padding-top: 200px;
@@ -389,7 +608,7 @@ blockquote > p {
   .shadow-down::before {
     position: absolute;
     content: "";
-    box-shadow: 0px 0px 80.75px 14.25px rgba(224, 241, 255, 0.34);
+    box-shadow: 0px 0px 80.75px 14.25px rgba(63, 40, 127, .34);;
     height: 100%;
     width: 100%;
     left: 0;
