@@ -129,11 +129,11 @@ services:
 - {
     name: Transactions,
     icon: ti-money,
-    description: 'Coming Soon! Humanize your local commerce with a local unit of energy.',
+    description: 'Coming soon! Humanize your local commerce with a local unit of energy.',
     active: # Add true to select section
   }
 - {
-    name: Got an Idea?,
+    name: Ideas,
     icon: ti-light-bulb,
     description: 'Nothing is impossible! We will figure it out with you.',
     active: # Add true to select section
