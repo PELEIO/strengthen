@@ -1,20 +1,20 @@
 #-------------------------------
 # General Site Settings
 
-title: PELEIO Community Builder
-logo: /assets/images/LOGO_June-3D.png
-author: PELEIO, LLC
-description: We support strengthening your community with open-source solutions.
-email: hello@pele.io
-telegram: https://t.me/PELEIO
-address: 30 N Gould St., Ste R <br>Sheridan, WY 82801
-copyright: Copyright &copy; 2020 PELEIO, LLC | Site designed by [Themefisher](https://themefisher.com)
+title: Kross
+logo: 
+author: themefisher
+description: this is meta description
+email: steve.fruits@email.com
+phone: +880 2544 658 256
+address: 125/A, CA Commercial Area, California, USA
+copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
-#menu:
-#- {name: About PELEIO, link: '/about/'}
-#- {name: Media Services, link: '/blog/'}
-#- {name: Video Storytelling, link: '/portfolio/'}
-#- {name: Contact, link: '/contact/'}
+menu:
+- {name: About, link: '/about/'}
+- {name: Blog, link: '/blog/'}
+- {name: Portfolio, link: '/portfolio/'}
+- {name: Contact, link: '/contact/'}
 
 
 #-------------------------------
@@ -38,13 +38,13 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Open-source software solutions for strengthening your community.
+  hero-title: Hi! I’m <br> Christoher <br> UX designer
 
-#social:
-#- {icon: "ti-facebook", link: "#"}
-#- {icon: "ti-instagram", link: "#"}
-#- {icon: "ti-dribbble", link: "#"}
-#- {icon: "ti-twitter", link: "#"}
+social:
+- {icon: "ti-facebook", link: "#"}
+- {icon: "ti-instagram", link: "#"}
+- {icon: "ti-dribbble", link: "#"}
+- {icon: "ti-twitter", link: "#"}
 
 
 #-------------------------------
@@ -54,54 +54,41 @@ hero:
 blurb:
   Trying to develop your community? To connect your tribe affordably, with control of your data, while practicing autonomy? <i>PELEIO Strengthen</i> helps you setup open source software that will enable your community to interact on its own terms.
 
-#blurb-btn-link: '/about'
-#blurb-btn-name: learn more about us
+# blurb-btn-link: '/about'
+# blurb-btn-name: know more
 
 
 # About Page
 
 # Work Process Section
 work-process:
-  - title : "Discuss & Explore"
+  - title : "Research and Plan"
     icon : "assets/images/icons/plan.png"
-    content : "Let's start off with a calls where you explain what you're working with, your vision, and what you may be looking for."
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     
-  - title : "Develop & Maintain"
+  - title : "Design and Develop"
     icon : "assets/images/icons/design.png"
-    content : "We'll set you up with the solution(s) that we think will be best. You pay first and last month's fees, and we'll be available at all times for any issues you may encounter. For a large majority of cases, we charge no set-up costs!"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     
-  - title : "Strengthen and Upgrade!"
+  - title : "Deliver"
     icon : "assets/images/icons/print.png"
-    content : "As you strengthen your community, we'll be in consistent communication with you regarding maintenance, software upgrades, or creative ways of expanding."
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
 
 # My Team Section
 team:
-  - title : "Jordan Urbs"
-    image : "assets/images/team/jordan.jpg"
-    designation : "Systems Administrator"
+  - title : "Jack Schenziwe"
+    image : "assets/images/team/member-1.png"
+    designation : "Project Manager"
     
-  - title : "Daniel Levy"
-    image : "assets/images/team/daniel.jpg"
-    designation : "Community Outreach"
+  - title : "Julias Carlie"
+    image : "assets/images/team/member-2.png"
+    designation : "Web Developer"
+    
+  - title : "John Doe"
+    image : "assets/images/team/member-3.png"
+    designation : "Designer"
 
-#-------------------------------
-# Exprerience Section
-
-experience-title: Experience
-experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
-
-#-------------------------------
-# Education Section
-
-education-title: Education
-education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
 
 #-------------------------------
 # Services Section
@@ -109,57 +96,21 @@ education:
 services-title: Services
 services:
 - {
-    name: Video Chat,
-    icon: ti-video-camera,
-    description: 'Host your own local, private, and secure video chats.',
+    name: UI Design,
+    icon: ti-palette,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     active: # Add true to select section
   }
 - {
-    name: Social Networking,
-    icon: ti-instagram,
-    description: 'Connect your community with interfaces just like Twitter, Instagram, or YouTube.',
-    active: # Add true to select section
+    name: UX Design,
+    icon: ti-vector,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: true # Add true to select section
   }
 - {
-    name: Community Discussion,
-    icon: ti-comments,
-    description: 'Share ideas and discourse with bulletin boards, forums, blogs and comments.',
-    active: # Add true to select section
-  }
-- {
-    name: Maps,
-    icon: ti-map,
-    description: 'Maps that display where people, resources, or activities are located.',
-    active: # Add true to select section
-  }
-- {
-    name: Online Courses,
-    icon: ti-blackboard,
-    description: 'Host and sell classes to share your knowledge with inspired students.',
-    active: # Add true to select section
-  }
-- {
-    name: Events,
-    icon: ti-direction,
-    description: 'Event invitations that are only visible to those who you want to see them.',
-    active: # Add true to select section
-  }
-- {
-    name: Websites,
-    icon: ti-world,
-    description: 'Communicate the objectives of your mission.',
-    active: # Add true to select section
-  }
-- {
-    name: Transactions (Coming Soon!),
-    icon: ti-money,
-    description: 'Humanize your community transactions with an agreed-upon local unit of energy.',
-    active: # Add true to select section
-  }
-- {
-    name: Got an Idea?,
-    icon: ti-light-bulb,
-    description: 'We can probably figure it out with you. Lets talk!',
+    name: Interaction Design,
+    icon: ti-panel,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     active: # Add true to select section
   }
 
