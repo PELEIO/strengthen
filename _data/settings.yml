@@ -120,25 +120,6 @@ services:
     description: 'Event invitations that are only visible to those who you want to see them.',
     active: # Add true to select section
   }
-- {
-    name: Websites,
-    icon: ti-world,
-    description: 'Communicate the objectives of your mission.',
-    active: # Add true to select section
-  }
-- {
-    name: Transactions (Coming Soon!),
-    icon: ti-money,
-    description: 'Humanize your community transactions with an agreed-upon local unit of energy.',
-    active: # Add true to select section
-  }
-- {
-    name: Got an Idea?,
-    icon: ti-light-bulb,
-    description: 'We can probably figure it out with you. Lets talk!',
-    active: # Add true to select section
-  }
-
 
 #-------------------------------
 # Contact Section
