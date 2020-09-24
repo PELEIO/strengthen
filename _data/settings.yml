@@ -132,13 +132,13 @@ services:
 - {
     name: Social Media Networking,
     icon: ti-vector,
-    description: 'Connect your community with a Twitter-like interface, share videos like YouTube, or record stories like Instagram.',
+    description: 'Connect your community with interfaces just like Twitter, Instagram, or YouTube.',
     active: # Add true to select section
   }
 - {
     name: Community Discussion,
     icon: ti-panel,
-    description: 'Bulletin boards, forums, blogs and comment portals to share ideas, knowledge, and wisdom.',
+    description: 'Share ideas and discourse with bulletin boards, forums, blogs and comments.',
     active: # Add true to select section
   }
 - {
@@ -150,13 +150,13 @@ services:
 - {
     name: Maps & Visualization (Coming Soon!),
     icon: ti-panel,
-    description: 'Embed a map on your website that displays where your community members, resources, or activities are located.',
+    description: 'Maps that display where people, resources, or activities are located.',
     active: # Add true to select section
   }
 - {
     name: Online Courses,
     icon: ti-panel,
-    description: 'Host classes to share your knowledge with inspired students.',
+    description: 'Host/sell classes to share your knowledge with inspired students.',
     active: # Add true to select section
   }
 - {
@@ -168,7 +168,13 @@ services:
 - {
     name: Websites,
     icon: ti-panel,
-    description: 'Every mission needs a landing page to communicate its objectives in order to bring in more people.',
+    description: 'Communicate the objectives of your mission.',
+    active: # Add true to select section
+  }
+- {
+    name: Got an idea?,
+    icon: ti-panel,
+    description: 'We can probably figure it out with you. Lets talk!',
     active: # Add true to select section
   }
 
