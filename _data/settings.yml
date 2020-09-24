@@ -123,55 +123,55 @@ education:
 
 services-title: Services
 services:
-- {
+  - {
     name: Video Chat,
     icon: ti-video-camera,
     description: 'Host your own local, private, and secure video chats.',
     active: # Add true to select section
   }
-- {
+  - {
     name: Social Networking,
     icon: ti-instagram,
     description: 'Connect your community with interfaces just like Twitter, Instagram, or YouTube.',
     active: # Add true to select section
   }
-- {
+  - {
     name: Community Discussion,
     icon: ti-comments,
     description: 'Share ideas and discourse with bulletin boards, forums, blogs and comments.',
     active: # Add true to select section
   }
-- {
+  - {
     name: Maps,
     icon: ti-map,
     description: 'Maps that display where people, resources, or activities are located.',
     active: # Add true to select section
   }
-- {
+  - {
     name: Online Courses,
     icon: ti-blackboard,
     description: 'Host and sell classes to share your knowledge with inspired students.',
     active: # Add true to select section
   }
-- {
+  - {
     name: Events,
     icon: ti-direction,
     description: 'Event invitations that are only visible to those who you want to see them.',
     active: # Add true to select section
   }
-- {
+  - {
     name: Websites,
     icon: ti-world,
     description: 'Communicate the objectives of your mission.',
     active: # Add true to select section
   }
-- {
+  - {
     name: Transactions (Coming Soon!),
     icon: ti-money,
     description: 'Humanize your community transactions with an agreed-upon local unit of energy.',
     active: # Add true to select section
   }
-- {
+  - {
     name: Got an Idea?,
     icon: ti-light-bulb,
     description: 'We can probably figure it out with you. Lets talk!',
