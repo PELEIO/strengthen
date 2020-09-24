@@ -619,6 +619,7 @@ blockquote > p {
 /* /footer */
 .navigation {
   padding: 20px 30px;
+            text-align: center;
   transition: .3s ease; }
   .navigation.nav-bg {
         text-align: center;

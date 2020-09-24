@@ -123,13 +123,13 @@ services:
 - {
     name: Websites,
     icon: ti-world,
-    description: 'Communicate the objectives of your mission.',
+    description: 'Communicate the objectives of your mission with style.',
     active: # Add true to select section
   }
 - {
     name: Transactions,
     icon: ti-money,
-    description: 'Coming Soon! Humanize your local commerce with an agreed-upon local unit of energy.',
+    description: 'Coming Soon! Humanize your local commerce with a local unit of energy.',
     active: # Add true to select section
   }
 - {
